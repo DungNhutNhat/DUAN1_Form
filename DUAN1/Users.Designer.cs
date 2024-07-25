@@ -38,6 +38,8 @@
             this.btnDashbord = new Guna.UI2.WinForms.Guna2Button();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -45,6 +47,8 @@
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.DarkOrange;
+            this.panel1.Controls.Add(this.guna2Button2);
+            this.panel1.Controls.Add(this.guna2Button1);
             this.panel1.Controls.Add(this.lblUserName);
             this.panel1.Controls.Add(this.btnLogout);
             this.panel1.Controls.Add(this.btnProfile);
@@ -53,15 +57,15 @@
             this.panel1.Controls.Add(this.btnDashbord);
             this.panel1.Controls.Add(this.label1);
             this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Location = new System.Drawing.Point(2, 1);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(256, 1100);
+            this.panel1.Size = new System.Drawing.Size(273, 919);
             this.panel1.TabIndex = 1;
             // 
             // lblUserName
             // 
             this.lblUserName.Font = new System.Drawing.Font("Calibri", 18F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblUserName.Location = new System.Drawing.Point(3, 612);
+            this.lblUserName.Location = new System.Drawing.Point(3, 718);
             this.lblUserName.Name = "lblUserName";
             this.lblUserName.Size = new System.Drawing.Size(250, 81);
             this.lblUserName.TabIndex = 7;
@@ -77,9 +81,9 @@
             this.btnLogout.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLogout.ForeColor = System.Drawing.Color.White;
             this.btnLogout.Image = ((System.Drawing.Image)(resources.GetObject("btnLogout.Image")));
-            this.btnLogout.Location = new System.Drawing.Point(0, 520);
+            this.btnLogout.Location = new System.Drawing.Point(0, 641);
             this.btnLogout.Name = "btnLogout";
-            this.btnLogout.Size = new System.Drawing.Size(256, 45);
+            this.btnLogout.Size = new System.Drawing.Size(273, 45);
             this.btnLogout.TabIndex = 6;
             this.btnLogout.Text = "LogOut";
             // 
@@ -95,9 +99,9 @@
             this.btnProfile.Image = ((System.Drawing.Image)(resources.GetObject("btnProfile.Image")));
             this.btnProfile.Location = new System.Drawing.Point(0, 455);
             this.btnProfile.Name = "btnProfile";
-            this.btnProfile.Size = new System.Drawing.Size(256, 45);
+            this.btnProfile.Size = new System.Drawing.Size(273, 45);
             this.btnProfile.TabIndex = 5;
-            this.btnProfile.Text = "Medicine Validity";
+            this.btnProfile.Text = "Update Medicine";
             // 
             // btnViewUser
             // 
@@ -111,7 +115,7 @@
             this.btnViewUser.Image = ((System.Drawing.Image)(resources.GetObject("btnViewUser.Image")));
             this.btnViewUser.Location = new System.Drawing.Point(0, 394);
             this.btnViewUser.Name = "btnViewUser";
-            this.btnViewUser.Size = new System.Drawing.Size(256, 45);
+            this.btnViewUser.Size = new System.Drawing.Size(273, 45);
             this.btnViewUser.TabIndex = 4;
             this.btnViewUser.Text = "View Medicine";
             // 
@@ -127,7 +131,7 @@
             this.btnAddUser.Image = ((System.Drawing.Image)(resources.GetObject("btnAddUser.Image")));
             this.btnAddUser.Location = new System.Drawing.Point(0, 332);
             this.btnAddUser.Name = "btnAddUser";
-            this.btnAddUser.Size = new System.Drawing.Size(256, 45);
+            this.btnAddUser.Size = new System.Drawing.Size(273, 45);
             this.btnAddUser.TabIndex = 3;
             this.btnAddUser.Text = "Add Medicine";
             // 
@@ -141,9 +145,9 @@
             this.btnDashbord.Font = new System.Drawing.Font("Century", 12F);
             this.btnDashbord.ForeColor = System.Drawing.Color.White;
             this.btnDashbord.Image = ((System.Drawing.Image)(resources.GetObject("btnDashbord.Image")));
-            this.btnDashbord.Location = new System.Drawing.Point(0, 272);
+            this.btnDashbord.Location = new System.Drawing.Point(2, 271);
             this.btnDashbord.Name = "btnDashbord";
-            this.btnDashbord.Size = new System.Drawing.Size(256, 45);
+            this.btnDashbord.Size = new System.Drawing.Size(271, 45);
             this.btnDashbord.TabIndex = 2;
             this.btnDashbord.Text = "Dashbord";
             // 
@@ -169,11 +173,43 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // guna2Button1
+            // 
+            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button1.FillColor = System.Drawing.Color.SteelBlue;
+            this.guna2Button1.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button1.ForeColor = System.Drawing.Color.White;
+            this.guna2Button1.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button1.Image")));
+            this.guna2Button1.Location = new System.Drawing.Point(0, 517);
+            this.guna2Button1.Name = "guna2Button1";
+            this.guna2Button1.Size = new System.Drawing.Size(273, 45);
+            this.guna2Button1.TabIndex = 8;
+            this.guna2Button1.Text = "Medicine Validity Check";
+            // 
+            // guna2Button2
+            // 
+            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.guna2Button2.FillColor = System.Drawing.Color.SteelBlue;
+            this.guna2Button2.Font = new System.Drawing.Font("Century", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button2.ForeColor = System.Drawing.Color.White;
+            this.guna2Button2.Image = ((System.Drawing.Image)(resources.GetObject("guna2Button2.Image")));
+            this.guna2Button2.Location = new System.Drawing.Point(0, 578);
+            this.guna2Button2.Name = "guna2Button2";
+            this.guna2Button2.Size = new System.Drawing.Size(273, 45);
+            this.guna2Button2.TabIndex = 9;
+            this.guna2Button2.Text = "Sell Medicine";
+            // 
             // Users
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1667, 1102);
+            this.ClientSize = new System.Drawing.Size(1288, 921);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Users";
@@ -196,5 +232,7 @@
         private Guna.UI2.WinForms.Guna2Button btnDashbord;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button guna2Button2;
     }
 }

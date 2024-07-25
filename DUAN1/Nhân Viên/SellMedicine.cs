@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace DUAN1.Nhân_Viên
 {
-    public partial class UpdateMedicine : Form
+    public partial class SellMedicine : Form
     {
-        public UpdateMedicine()
+        public SellMedicine()
         {
             InitializeComponent();
-        }
-
-        private void guna2TextBox4_TextChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }
